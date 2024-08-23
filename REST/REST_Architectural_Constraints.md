@@ -5,7 +5,7 @@
 ## The six guiding constraints are:
 
 
-### Uniform Interface
+## Uniform Interface
 The uniform interface constraint defines the interface between clients and servers. It simplifies and decouples the architecture, which enables each part to evolve independently.
 
 * **Resource Identification:** Each resource is identified by a unique URI.
@@ -31,7 +31,7 @@ The uniform interface constraint defines the interface between clients and serve
 
 
 
-### Client-Server
+## Client-Server
 The separation of concerns between the client and the server. The client is responsible for the user interface and the server is responsible for the data storage.
 
 * **Client:** The client is responsible for the user interface and user experience. It initiates requests to the server, processes the responses, and renders the user interface.
@@ -92,7 +92,7 @@ Servers and clients may also be replaced and developed independently, as long as
 
 
 
-### Stateless
+## Stateless
 Each request from a client must contain all the information required by the server to fulfill the request. The server should not store any client state between requests.
 
 * **Stateless Communication:** Each request from a client to a server must contain all the information necessary to understand the request. The server cannot rely on any previous requests from the client to understand the current request.
@@ -142,7 +142,7 @@ No client context shall be stored on the server between requests. The client is 
 
 
 
-### Cacheable
+## Cacheable
 The server must indicate to the client if requests can be cached or not. If a response is cacheable, the client can reuse the response data for equivalent requests in the future.
 
 * **Cacheable Responses:** Servers should indicate whether responses can be cached or not. If a response is cacheable, the client can reuse the response data for equivalent requests in the future.
@@ -180,7 +180,7 @@ In REST, caching shall be applied to resources when applicable, and then these r
 Well-managed caching partially or completely eliminates some client-server interactions, further improving scalability and performance.
 
 
-### Layered System
+## Layered System
 A client cannot ordinarily tell whether it is connected directly to the end server, or to an intermediary along the way. Intermediary servers can improve system scalability by enabling load balancing and shared caches.
 
 * **Layered Architecture:** The layered architecture constraint allows an architecture to be composed of multiple layers. Each layer can only interact with the adjacent layers. This allows the architecture to be more scalable and maintainable.
@@ -202,7 +202,7 @@ A client cannot ordinarily tell whether it is connected directly to the end serv
 REST allows you to use a layered system architecture where you deploy the APIs on server A, store data on server B, and authenticate requests on server C, for example. A client cannot ordinarily tell whether it is connected directly to the end server or an intermediary along the way.
 
 
-### Code on Demand (optional)
+## Code on Demand (optional)
 Servers can temporarily extend or customize the functionality of a client by transferring logic to the client. This constraint is optional and is not commonly used.
 
 * **Code on Demand:** Servers can transfer executable code to clients. This allows servers to temporarily extend or customize the functionality of clients. This constraint is optional and is not commonly used.
