@@ -525,6 +525,6 @@ to interact with the API dynamically, without requiring prior knowledge of resou
   }
   ```
 
-# Sources
-* [REST API Design Workshop](https://www.youtube.com/playlist?list=PL_XxuZqN0xVAWGDKIzcn6NWikVkljJQZc)
+# Source
+* [REST API Design Workshop](https://www.youtube.com/watch?v=EbHf2aCuPVM&list=PL_XxuZqN0xVAWGDKIzcn6NWikVkljJQZc&index=2)
 
